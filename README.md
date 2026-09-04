@@ -1,97 +1,54 @@
 <img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
-
-
-# [Project Name] 🎯
-
+# Tongue Pointer 👅🖱️
 
 ## Basic Details
-### Team Name: [Name]
-
+### Team Name: TongueTech
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Aryan - MITS
 
 ### Project Description
-[2-3 lines about what your project does]
+Real-time tongue tip tracking interface using computer vision (MediaPipe + OpenCV) that allows hands-free control of your operating system mouse cursor and triggers double-clicks when you close your mouth.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Using your hands to move a mouse is way too conventional. Why use fingers when your tongue can navigate Windows, open applications, and execute native double-clicks without touching any hardware?
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+A non-contact vision algorithm tracking tongue movements in real-time, mapping sub-pixel displacement to native Windows `User32` cursor coordinates, featuring position locking and double-click triggers on mouth closure!
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- Python 3.13
+- OpenCV 4.8+
+- MediaPipe 0.10+ (FaceLandmarker 468 3D Landmarks)
+- NumPy
+- Pillow (PIL)
+- Windows User32 Native CTypes API
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+```bash
+pip install -r requirements.txt
+```
 
-# Run
-[commands]
+# Run Unit Tests
+```bash
+python test_mouse_controller.py
+```
 
-### Project Documentation
-For Software:
+# Run Application
+```bash
+python tongue_mouse_controller.py
+```
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+### Project Controls & Features
+- **Tongue Tip Movement**: Smoothly moves OS mouse cursor across your full screen.
+- **Position Locking**: Freezes cursor coordinates when closing mouth to eliminate jump/wobble.
+- **Double Click Execution**: Closing mouth automatically executes a native Windows double-click.
+- **Minimal Pitch-Black HUD**: Dark mode overlay (`#0a0b0e`) with real-time FPS counter and target reticle.
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
