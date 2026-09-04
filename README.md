@@ -3,10 +3,10 @@
 # Tongue Pointer 👅🖱️
 
 ## Basic Details
-### Team Name: TongueTech
+### Team Name: p3ak
 
 ### Team Members
-- Team Lead: Aryan - MITS
+- : Jonathan and Aryan
 
 ### Project Description
 Real-time tongue tip tracking interface using computer vision (MediaPipe + OpenCV) that allows hands-free control of your operating system mouse cursor and triggers double-clicks when you close your mouth.
