@@ -55,14 +55,11 @@ python tongue_mouse_controller.py
 For Software:
 
 # Screenshots (Add at least 3)
-![Tongue Pointer Interface](ss.png)
+![Tongue Pointer Interface](ss)
 *Minimal Pitch-Black Dark Mode HUD overlay showing real-time tongue tip reticle tracking and telemetry*
 
-![Cursor Position Lock](ss2.png)
+![Cursor Position Lock](ss2)
 *Position locking telemetry and double-click feedback execution upon mouth closure*
-
-![Tracking Target Reticle](ss.png)
-*Subtle mint reticle marking stabilized tongue tip coordinates with dual-stage adaptive EMA filtering*
 
 # Diagrams
 ```
