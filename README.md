@@ -88,7 +88,8 @@ For Software:
 ---
 
 ## Team Contributions
-- **Aryan**: End-to-end architecture & design, MediaPipe + OpenCV dual-stage tongue detection pipeline, Windows User32 native mouse integration, position locking algorithm, double-click trigger, and minimal pitch-black HUD UI implementation.
+- **Aryan**: Idea, Improvement, Suggestions, Design and moral support.
+- **Jonathan**: End-to-end architecture & design, MediaPipe + OpenCV dual-stage tongue detection pipeline, Windows User32 native mouse integration, position locking algorithm and double-click trigger.
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
